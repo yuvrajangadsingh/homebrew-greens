@@ -1,8 +1,8 @@
 class ContribMirror < Formula
   desc "Mirror private work contributions to your GitHub profile"
   homepage "https://github.com/yuvrajangadsingh/private-work-contributions-mirror"
-  url "https://github.com/yuvrajangadsingh/private-work-contributions-mirror/archive/refs/tags/v1.3.0.tar.gz"
-  sha256 "106f8f6640c472db5cd48cc3254eff50488b3274b37b0afc73967237db2cc875"
+  url "https://github.com/yuvrajangadsingh/private-work-contributions-mirror/archive/refs/tags/v1.3.1.tar.gz"
+  sha256 "4deb38093a41ef45a6041e944dd3ca57c2ef28d1c5a04695af73c675a639f19f"
   license "MIT"
 
   depends_on "git"
@@ -16,8 +16,11 @@ class ContribMirror < Formula
 
   def caveats
     <<~EOS
-      Run the setup wizard to configure:
-        contrib-mirror --setup
+      Get started:
+        contrib-mirror
+
+      Setup runs automatically on first use.
+      To reconfigure later: contrib-mirror --setup
     EOS
   end
 
