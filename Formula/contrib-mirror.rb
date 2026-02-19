@@ -1,8 +1,8 @@
 class ContribMirror < Formula
   desc "Mirror private work contributions to your GitHub profile"
   homepage "https://github.com/yuvrajangadsingh/private-work-contributions-mirror"
-  url "https://github.com/yuvrajangadsingh/private-work-contributions-mirror/archive/refs/tags/v1.2.0.tar.gz"
-  sha256 "d1ba2b9435eb19afcb0cb0b65f1813d973ea3bc176aa4aa0bd07b001861df309"
+  url "https://github.com/yuvrajangadsingh/private-work-contributions-mirror/archive/refs/tags/v1.2.1.tar.gz"
+  sha256 "eacb17c6189eb11dce8ca609ddbae888ff658258d987f7ac5317060323be89f6"
   license "MIT"
 
   depends_on "git"
