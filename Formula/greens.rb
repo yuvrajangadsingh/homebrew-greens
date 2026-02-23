@@ -1,8 +1,8 @@
 class Greens < Formula
   desc "Mirror private work contributions to your GitHub profile"
   homepage "https://github.com/yuvrajangadsingh/private-work-contributions-mirror"
-  url "https://github.com/yuvrajangadsingh/private-work-contributions-mirror/archive/refs/tags/v1.6.1.tar.gz"
-  sha256 "57fd922e70558e77aea5c0efd09b884ac329486665c94871eb8ef0cf9e9fbe10"
+  url "https://github.com/yuvrajangadsingh/private-work-contributions-mirror/archive/refs/tags/v1.6.2.tar.gz"
+  sha256 "1a3da77f426fbbd1a148ad23b402c0d668064c937537d3f605918fa27f7320df"
   license "MIT"
 
   depends_on "git"
