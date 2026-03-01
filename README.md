@@ -1,12 +1,11 @@
-# homebrew-contrib-mirror
+# homebrew-greens
 
-Homebrew tap for [contrib-mirror](https://github.com/yuvrajangadsingh/private-work-contributions-mirror) — mirror private work contributions to your GitHub profile.
+Homebrew tap for [greens](https://github.com/yuvrajangadsingh/greens) — mirror private work contributions to your GitHub profile.
 
 ## Install
 
 ```bash
-brew tap yuvrajangadsingh/contrib-mirror
-brew install contrib-mirror
+brew install yuvrajangadsingh/greens/greens
 ```
 
-Then run `contrib-mirror --setup` to configure.
+Then run `greens` to get started. Setup runs automatically on first use.
